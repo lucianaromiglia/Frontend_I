@@ -1,0 +1,61 @@
+
+/* Se le asigna esta familia de fuentes al documento */
+* {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+/* Seccion del header */
+header {
+    background-color: #ddd;
+    padding-top: 25px;
+    text-align: center;
+}
+/* Seccion main */
+main {
+    margin: 60px auto;
+    width: 800px;
+}
+
+/* h1, h2 tienen atributos similares */ 
+h1, h2 {
+    background-color: darkgray;
+    font-family: Cambria, Times, serif;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: midnightblue;
+    font-size: 24px; 
+    line-height: 40px;
+}
+
+h2 {
+    color: rgb(112, 27, 27);
+    font-size: 18px;
+}
+
+/* items de lista */
+li {
+    font-style: normal;
+    line-height: 1.5em;
+
+}
+
+/* Seccion del footer */
+footer{
+    background-color: #1e4574;
+    color: rgb(202, 201, 201);
+    font-size: 24px; 
+    text-align: center;
+}
+ /* Spans con detalle de letra cursiva y en negrilla */
+.boldItalic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* ancho de la foto de perfil */
+#foto {
+    width: 120px;
+}
