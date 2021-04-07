@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@font-face {
+    font-family: 'Inter';
+    src: local(Inter-Regular), url(../fonts/Inter-Regular.ttf);
+    font-weight: bold;
+}
+
+body {
+    color: black;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.banner {
+    /*background-attachment: fixed;*/
+    font-family: 'Inter', sans-serif;
+    background-image: url(../img/lemon-pie2.jpeg);
+    background-size: cover;
+    color: white;
+    height: 343px;
+}
+
+.fa-list-ol {
+    color: green;
+}
